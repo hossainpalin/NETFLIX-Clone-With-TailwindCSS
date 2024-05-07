@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!--Banner Section Start Here-->
+    <section
+      class="w-full h-[43.75rem] bg-[url('./assets/images/BD-en-20231016-popsignuptwoweeks-perspective_alpha_website_large.jpg')] bg-no-repeat bg-cover bg-center"
+    >
+      <div class="w-full h-[43.75rem] bg-black/60">
+        <header class="max-w-[1200px] mx-auto p-5">
+          <div class="w-full flex items-center justify-between">
+            <div class="basis-28 md:basis-40">
+              <a href="#">
+                <img src="./assets/logo/Logonetflix.png" alt="" />
+              </a>
+            </div>
+            <div class="">
+              <button
+                class="bg-red-700 text-white px-4 py-1 rounded-md hover:bg-red-800"
+              >
+                Sign In
+              </button>
+            </div>
+          </div>
+        </header>
+        <div
+          class="max-w-[1200px] mx-auto text-center text-white relative top-1/3 transform -translate-y-1/3"
+        >
+          <h1 class="text-4xl sm:text-5xl font-bold mb-5 px-5">
+            Unlimited movies, TV shows, and more
+          </h1>
+          <p class="text-xl sm:text-2xl font-semibold mb-5 px-5">
+            Watch anywhere. Cancel anytime.
+          </p>
+          <h3 class="text-xl sm:text-2xl font-normal mb-7 px-5">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </h3>
+          <div class="max-w-[700px] px-10 sm:px-5 mx-auto">
+            <form
+              class="grid sm:grid-cols-[70%_auto] sm:grid-cols-1 gap-4 sm:gap-2"
+            >
+              <input
+                class="h-14 p-3 border border-gray-500 focus:border-white outline-none rounded bg-black/50"
+                type="text"
+                name=""
+                id=""
+                placeholder="Email address"
+              />
+              <button
+                class="w-2/3 sm:w-full mx-auto bg-red-700 hover:bg-red-800 rounded text-2xl font-semibold p-3 flex items-center justify-center"
+              >
+                Get Started
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Banner Section End Here-->
+
+    <div class="border-b-8 border-gray-600"></div>
+
+    <!--Content Section 01 Start Here-->
+    <section class="w-full py-16 flex justify-center items-center bg-black">
+      <div
+        class="max-w-[1200px] mx-auto p-5 grid grid-cols-1 lg:grid-cols-2 gap-2"
+      >
+        <div class="flex flex-col justify-center">
+          <h1
+            class="text-4xl lg:text-5xl font-bold text-white text-center lg:text-left"
+          >
+            Enjoy on your TV
+          </h1>
+          <h2
+            class="text-2xl font-normal text-white mt-6 text-center lg:text-left"
+          >
+            Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+            players, and more.
+          </h2>
+        </div>
+        <div class="flex justify-center lg:justify-end">
+          <div class="relative">
+            <img class="relative z-10" src="./assets/images/tv.png" alt="" />
+            <video
+              class="absolute left-[10%] bottom-[20%] w-[80%]"
+              autoplay
+              loop
+            >
+              <source
+                src="./assets/videos/Netflix Bangladesh - Watch TV Shows Online, Watch Movies Online.m4v"
+              />
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Content Section 01 End Here-->
+
+    <div class="border-b-8 border-gray-600"></div>
+
+    <!--Content Section 02 Start Here-->
+    <section class="w-full py-16 flex justify-center items-center bg-black">
+      <div
+        class="max-w-[1200px] mx-auto p-5 grid grid-cols-1 lg:grid-cols-2 gap-2"
+      >
+        <div class="flex justify-center lg:justify-end">
+          <div class="relative">
+            <img
+              class="relative"
+              src="./assets/images/mobile-0819.jpg"
+              alt=""
+            />
+            <div
+              class="text-white w-[60%] max-h-[25%] bg-black border-2 border-gray-600 rounded-lg absolute bottom-[6%] right-[20%] flex justify-between items-center p-3"
+            >
+              <div class="flex justify-center items-center">
+                <div class="max-w-[60px]">
+                  <img
+                    class="w-[80%]"
+                    src="./assets/images/boxshot.png"
+                    alt=""
+                  />
+                </div>
+                <div class="ml-1">
+                  <h1 class="text-lg lg:text-xl md:mb-1">Stranger Things</h1>
+                  <p class="text-sm text-blue-500">Downloading...</p>
+                </div>
+              </div>
+              <div class="">
+                <img
+                  class="w-[55px]"
+                  src="./assets/images/download-icon.gif"
+                  alt="download-icon"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-center order-first lg:order-none">
+          <h1
+            class="text-4xl lg:text-5xl font-bold text-white lg:leading-[60px] text-center lg:text-left"
+          >
+            Download your shows to watch offline
+          </h1>
+          <h2
+            class="text-2xl font-normal text-white mt-6 text-center lg:text-left"
+          >
+            Save your favorites easily and always have something to watch.
+          </h2>
+        </div>
+      </div>
+    </section>
+    <!--Content Section 02 End Here-->
+
+    <div class="border-b-8 border-gray-600"></div>
+
+    <!--Content Section 03 Start Here-->
+    <section class="w-full py-16 flex justify-center items-center bg-black">
+      <div
+        class="max-w-[1200px] mx-auto p-5 grid grid-cols-1 lg:grid-cols-2 gap-2"
+      >
+        <div class="flex flex-col justify-center">
+          <h1
+            class="text-4xl lg:text-5xl font-bold text-white text-center lg:text-left"
+          >
+            Create profiles for kids
+          </h1>
+          <h2
+            class="text-2xl font-normal text-white mt-6 text-center lg:text-left"
+          >
+            Send kids on adventures with their favorite characters in a space
+            made just for them—free with your membership.
+          </h2>
+        </div>
+        <div class="flex justify-center lg:justify-end">
+          <div class="relative">
+            <img
+              class="relative z-10"
+              src="./assets/images/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Content Section 03 End Here-->
+    <div class="border-b-8 border-gray-600"></div>
+    <!--FAQ Start Here-->
+    <section class="w-full py-14 bg-black">
+      <div class="max-w-[1200px] mx-auto p-5">
+        <h1 class="text-4xl lg:text-5xl font-bold text-white text-center">
+          Frequently Asked Questions
+        </h1>
+
+        <div class="w-full py-14">
+          <!--FAQ 01-->
+          <div>
+            <div
+              class="p-5 flex justify-between items-center bg-gray-800 hover:bg-gray-700 cursor-pointer"
+            >
+              <h1 class="text-2xl text-white">What is Netflix?</h1>
+              <div class="text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-10 h-10"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 4.5v15m7.5-7.5h-15"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="p-5 my-1 bg-gray-800">
+              <p class="text-xl text-white">
+                Netflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries, and more
+                on thousands of internet-connected devices. You can watch as
+                much as you want, whenever you want without a single commercial
+                all for one low monthly price. There's always something new to
+                discover and new TV shows and movies are added every week!
+              </p>
+            </div>
+          </div>
+
+          <!--FAQ 02-->
+          <div>
+            <div
+              class="p-5 flex justify-between items-center bg-gray-800 hover:bg-gray-700 cursor-pointer"
+            >
+              <h1 class="text-2xl text-white">How much does Netflix cost?</h1>
+              <div class="text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-10 h-10"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 4.5v15m7.5-7.5h-15"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="p-5 my-1 bg-gray-800">
+              <p class="text-xl text-white">
+                Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+                streaming device, all for one fixed monthly fee. Plans range
+                from USD2.99 to USD9.99 a month. No extra costs, no contracts.
+              </p>
+            </div>
+          </div>
+
+          <!--FAQ 03-->
+          <div>
+            <div
+              class="p-5 flex justify-between items-center bg-gray-800 hover:bg-gray-700 cursor-pointer"
+            >
+              <h1 class="text-2xl text-white">Where can I watch?</h1>
+              <div class="text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-10 h-10"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 4.5v15m7.5-7.5h-15"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="p-5 my-1 bg-gray-800">
+              <p class="text-xl text-white">
+                Watch anywhere, anytime. Sign in with your Netflix account to
+                watch instantly on the web at netflix.com from your personal
+                computer or on any internet-connected device that offers the
+                Netflix app, including smart TVs, smartphones, tablets,
+                streaming media players and game consoles. You can also download
+                your favorite shows with the iOS, Android, or Windows 10 app.
+                Use downloads to watch while you're on the go and without an
+                internet connection. Take Netflix with you anywhere.
+              </p>
+            </div>
+          </div>
+
+          <!--FAQ 04-->
+          <div>
+            <div
+              class="p-5 flex justify-between items-center bg-gray-800 hover:bg-gray-700 cursor-pointer"
+            >
+              <h1 class="text-2xl text-white">How do I cancel?</h1>
+              <div class="text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-10 h-10"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 4.5v15m7.5-7.5h-15"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="p-5 my-1 bg-gray-800">
+              <p class="text-xl text-white">
+                Netflix is flexible. There are no pesky contracts and no
+                commitments. You can easily cancel your account online in two
+                clicks. There are no cancellation fees start or stop your
+                account anytime.
+              </p>
+            </div>
+          </div>
+
+          <!--FAQ 05-->
+          <div>
+            <div
+              class="p-5 flex justify-between items-center bg-gray-800 hover:bg-gray-700 cursor-pointer"
+            >
+              <h1 class="text-2xl text-white">What can I watch on Netflix?</h1>
+              <div class="text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-10 h-10"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 4.5v15m7.5-7.5h-15"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="p-5 my-1 bg-gray-800">
+              <p class="text-xl text-white">
+                Netflix has an extensive library of feature films,
+                documentaries, TV shows, anime, award-winning Netflix originals,
+                and more. Watch as much as you want, anytime you want.
+              </p>
+            </div>
+          </div>
+
+          <!--FAQ 06-->
+          <div>
+            <div
+              class="p-5 flex justify-between items-center bg-gray-800 hover:bg-gray-700 cursor-pointer"
+            >
+              <h1 class="text-2xl text-white">Is Netflix good for kids?</h1>
+              <div class="text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-10 h-10"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 4.5v15m7.5-7.5h-15"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="p-5 my-1 bg-gray-800">
+              <p class="text-xl text-white">
+                The Netflix Kids experience is included in your membership to
+                give parents control while kids enjoy family-friendly TV shows
+                and movies in their own space. Kids profiles come with
+                PIN-protected parental controls that let you restrict the
+                maturity rating of content kids can watch and block specific
+                titles you don’t want kids to see.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Membership Section-->
+        <div class="w-full">
+          <h3
+            class="text-xl sm:text-2xl font-normal mb-7 px-5 text-white text-center"
+          >
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </h3>
+          <div class="max-w-[700px] px-10 sm:px-5 mx-auto">
+            <form
+              class="grid sm:grid-cols-[70%_auto] sm:grid-cols-1 gap-4 sm:gap-2"
+            >
+              <input
+                class="h-14 p-3 border border-gray-500 focus:border-white outline-none rounded bg-black/50"
+                type="text"
+                name=""
+                id=""
+                placeholder="Email address"
+              />
+              <button
+                class="w-2/3 sm:w-full mx-auto bg-red-700 hover:bg-red-800 rounded text-2xl font-semibold p-3 flex items-center justify-center text-white"
+              >
+                Get Started
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
